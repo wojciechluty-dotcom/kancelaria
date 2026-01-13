@@ -1,5 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 
+import adamskiImage from '@/assets/images/wojciech-adamski.jpg';
+
 export function Hero() {
   const scrollToForm = () => {
     document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
@@ -11,7 +13,7 @@ export function Hero() {
       <div className="absolute left-0 bottom-0 w-96 h-[550px] lg:w-[480px] lg:h-[680px] hidden md:block z-0">
         <div className="relative w-full h-full">
           <img
-            src="https://images.unsplash.com/photo-1736939681295-bb2e6759dddc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBsYXd5ZXIlMjBwb3J0cmFpdCUyMHdvbWFufGVufDF8fHx8MTc2ODIwOTU3OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="adamskiimage"
             alt="Prawnik"
             className="w-full h-full object-cover opacity-95"
             style={{

@@ -1,5 +1,4 @@
 import { Award, Scale, Briefcase, Phone, Mail } from 'lucide-react';
-import lutyImage from '@/public/images/team-luty.png';
 import adamskiImage from '@/assets/images/wojciech-adamski.jpg';
 
 export function TeamSection() {
@@ -7,7 +6,7 @@ export function TeamSection() {
     {
       name: "Wojciech Luty",
       title: "Adwokat",
-      image: lutyImage,
+      image: "/public/images/team-luty.png",
       phone: "+48 694 491 095",
       email: "wojciech.luty@wsla.pl",
       specializations: [

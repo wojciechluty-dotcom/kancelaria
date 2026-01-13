@@ -56,7 +56,7 @@ export function WhyChooseUs() {
           <div className="order-2 lg:order-1">
             <div className="rounded-xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1754298949882-216a1c92dbb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzc3dvbWFuJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzY4MjYzNTY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="team-group.png"
                 alt="Zespół Kancelarii"
                 className="w-full h-full object-cover"
               />

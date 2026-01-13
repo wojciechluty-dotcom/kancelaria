@@ -3,17 +3,32 @@ import { ArrowRight } from 'lucide-react';
 export function Hero() {
   const scrollToForm = () => {
     document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
+  };
 
-  return
-  {/* Lawyer Images - Left */}
-      <div className="absolute left-0 bottom-0 w-72 h-[450px] lg:w-96 lg:h-[600px] xl:w-[450px] xl:h-[700px] hidden md:block z-0">
+  return (
+    <div className="relative min-h-[700px] flex items-center justify-center overflow-hidden">
+      {/* Background Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#2C3E50] via-[#34495e] to-[#1a252f]"></div>
+      
+      {/* Side Lightening Gradient - lighter on sides */}
+      <div className="absolute inset-0 bg-gradient-to-r from-white/5 via-transparent to-white/5"></div>
+      
+      {/* Decorative Pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")',
+        }}></div>
+      </div>
+
+      {/* Lawyer Images - Left */}
+      <div className="absolute left-0 bottom-0 w-96 h-[550px] lg:w-[480px] lg:h-[680px] hidden md:block z-0">
         <div className="relative w-full h-full">
           <img
-            src="/assets/wojciech-luty.jpg"
+            src="/images/hero-lawyer-left.png"
             alt="Prawnik"
             className="w-full h-full object-cover opacity-95"
             style={{
-              objectPosition: 'center 20%',
+              objectPosition: 'center 10%',
               filter: 'saturate(0.85) brightness(1.05)',
               maskImage: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.2) 3%, rgba(0,0,0,1) 10%), linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 70%, transparent 100%)',
               WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.2) 3%, rgba(0,0,0,1) 10%), linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 70%, transparent 100%)',
@@ -23,11 +38,12 @@ export function Hero() {
           />
         </div>
       </div>
+
       {/* Lawyer Images - Right */}
       <div className="absolute right-0 bottom-0 w-96 h-[550px] lg:w-[480px] lg:h-[680px] hidden md:block z-0">
         <div className="relative w-full h-full">
           <img
-            src="/assets/wojciech-adamski-Bi1Sg4hJ.jpg"
+            src="/images/hero-lawyer-right.png"
             alt="Prawnik"
             className="w-full h-full object-cover opacity-95"
             style={{
@@ -97,6 +113,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

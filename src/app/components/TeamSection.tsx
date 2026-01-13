@@ -7,7 +7,7 @@ export function TeamSection() {
     {
       name: "Wojciech Luty",
       title: "Adwokat",
-      image: lutyImage,
+      image: "/image/team-luty.png",
       phone: "+48 694 491 095",
       email: "wojciech.luty@wsla.pl",
       specializations: [

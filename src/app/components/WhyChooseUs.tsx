@@ -56,7 +56,7 @@ export function WhyChooseUs() {
           <div className="order-2 lg:order-1">
             <div className="rounded-xl overflow-hidden shadow-2xl">
               <img
-                src="team-group.png"
+                src="/images/team-group.png"
                 alt="Zespół Kancelarii"
                 className="w-full h-full object-cover"
               />

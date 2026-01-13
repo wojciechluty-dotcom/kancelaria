@@ -30,7 +30,7 @@ export function Hero() {
       <div className="absolute right-0 bottom-0 w-96 h-[550px] lg:w-[480px] lg:h-[680px] hidden md:block z-0">
         <div className="relative w-full h-full">
           <img
-            src="https://images.unsplash.com/photo-1589307904488-7d60ff29c975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdHRvcm5leSUyMHByb2Zlc3Npb25hbCUyMGhlYWRzaG90fGVufDF8fHx8MTc2ODMxNjA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="/assets/wojciech-adamski-Bi1Sg4hJ.jpg"
             alt="Prawnik"
             className="w-full h-full object-cover opacity-95"
             style={{

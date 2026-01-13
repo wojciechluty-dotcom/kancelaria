@@ -3,7 +3,6 @@ import { ArrowRight } from 'lucide-react';
 export function Hero() {
   const scrollToForm = () => {
     document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return
   {/* Lawyer Images - Left */}

@@ -1,11 +1,13 @@
 import { Award, Scale, Briefcase, Phone, Mail } from 'lucide-react';
+import lutyImage from '@/assets/images/wojciech-luty.jpg';
+import adamskiImage from '@/assets/images/wojciech-adamski.jpg';
 
 export function TeamSection() {
   const lawyers = [
     {
       name: "Wojciech Luty",
       title: "Adwokat",
-      image: "https://images.unsplash.com/photo-1731093714827-ba0353e09bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBsYXd5ZXIlMjBwb3J0cmFpdCUyMG1hbnxlbnwxfHx8fDE3NjgyMDk1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: lutyImage,
       phone: "+48 694 491 095",
       email: "wojciech.luty@wsla.pl",
       specializations: [
@@ -19,7 +21,7 @@ export function TeamSection() {
     {
       name: "Wojciech Adamski",
       title: "Radca Prawny",
-      image: "https://images.unsplash.com/photo-1738750908048-14200459c3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWxlJTIwYXR0b3JuZXklMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzY4MjI1MTQxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: adamskiImage,
       phone: "+48 533 704 477",
       email: "wojciech.adamski@wsla.pl",
       specializations: [

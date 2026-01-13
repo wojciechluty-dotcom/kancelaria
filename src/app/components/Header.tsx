@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Phone, Mail } from 'lucide-react';
+import logoImage from '@/assets/images/logo-wsla.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,9 +30,11 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-[#2C3E50]">
-              <span className="text-[#D4AF37]">WSLA</span> Kancelaria
-            </div>
+            <img 
+              src={logoImage} 
+              alt="WSLA Kancelaria" 
+              className="h-10 sm:h-12 w-auto"
+            />
           </div>
 
           {/* Contact Info - Hidden on mobile */}

@@ -6,7 +6,24 @@ export function Hero() {
   };
 
   return
-
+  {/* Lawyer Images - Left */}
+      <div className="absolute left-0 bottom-0 w-72 h-[450px] lg:w-96 lg:h-[600px] xl:w-[450px] xl:h-[700px] hidden md:block z-0">
+        <div className="relative w-full h-full">
+          <img
+            src={imgLawyerLeft}
+            alt="Prawnik"
+            className="w-full h-full object-cover opacity-95"
+            style={{
+              objectPosition: 'center 20%',
+              filter: 'saturate(0.85) brightness(1.05)',
+              maskImage: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.2) 3%, rgba(0,0,0,1) 10%), linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 70%, transparent 100%)',
+              WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.2) 3%, rgba(0,0,0,1) 10%), linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 70%, transparent 100%)',
+              maskComposite: 'intersect',
+              WebkitMaskComposite: 'source-in'
+            }}
+          />
+        </div>
+      </div>
       {/* Lawyer Images - Right */}
       <div className="absolute right-0 bottom-0 w-96 h-[550px] lg:w-[480px] lg:h-[680px] hidden md:block z-0">
         <div className="relative w-full h-full">

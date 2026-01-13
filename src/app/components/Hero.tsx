@@ -10,7 +10,7 @@ export function Hero() {
       <div className="absolute left-0 bottom-0 w-72 h-[450px] lg:w-96 lg:h-[600px] xl:w-[450px] xl:h-[700px] hidden md:block z-0">
         <div className="relative w-full h-full">
           <img
-            src={imgLawyerLeft}
+            src="/assets/wojciech-luty-BtZvcVoc.jpg"
             alt="Prawnik"
             className="w-full h-full object-cover opacity-95"
             style={{

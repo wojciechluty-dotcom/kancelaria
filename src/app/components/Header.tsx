@@ -33,7 +33,7 @@ export function Header() {
             <img 
               src={logoImage} 
               alt="WSLA Kancelaria" 
-              className="h-25 sm:h-12 w-auto"
+              className="h-45 sm:h-20 w-auto"
             />
           </div>
 

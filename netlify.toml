@@ -1,0 +1,30 @@
+[build]
+  # Folder bazowy (pusty = główny katalog repo)
+  base = ""
+  # Komenda do zbudowania projektu
+  command = "npm run build"
+  # Folder, który zostanie opublikowany
+  publish = "dist"
+
+# Wymuszenie HTTPS - przekierowanie HTTP → HTTPS
+[[redirects]]
+  from = "http://prawnik-skd.pl/*"
+  to = "https://prawnik-skd.pl/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.prawnik-skd.pl/*"
+  to = "https://prawnik-skd.pl/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  # Przekierowanie wszystkich ścieżek na index.html (dla React Router)
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  # Wersja Node.js
+  NODE_VERSION = "18"

@@ -1,0 +1,9 @@
+# robots.txt dla prawnik-skd.pl
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://prawnik-skd.pl/sitemap.xml
+
+# Crawl-delay (opcjonalnie, dla grzecznych botów)
+Crawl-delay: 1

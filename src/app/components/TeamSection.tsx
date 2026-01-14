@@ -19,7 +19,7 @@ export function TeamSection() {
     {
       name: "Wojciech Adamski",
       title: "Radca Prawny",
-      image: "/images/team-adamski.jpg",
+      image: "/images/team-adamski.jpeg",
       phone: "+48 533 704 477",
       email: "wojciech.adamski@wsla.pl",
       specializations: [

@@ -1,5 +1,4 @@
 import { Award, Scale, Briefcase, Phone, Mail } from 'lucide-react';
-import adamskiImage from '@/assets/images/wojciech-adamski.jpg';
 
 export function TeamSection() {
   const lawyers = [
@@ -20,7 +19,7 @@ export function TeamSection() {
     {
       name: "Wojciech Adamski",
       title: "Radca Prawny",
-      image: adamskiImage,
+      image: "/images/team-adamski.jpg",
       phone: "+48 533 704 477",
       email: "wojciech.adamski@wsla.pl",
       specializations: [

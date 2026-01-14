@@ -7,8 +7,13 @@ import { WhyChooseUs } from './components/WhyChooseUs';
 import { TeamSection } from './components/TeamSection';
 import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
+import { useEffect } from 'react';
 
 export default function App() {
+  useEffect(() => {
+    document.title = 'Sankcja Kredytu - Kancelaria Steidler, Luty, Adamski, Bućko';
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
